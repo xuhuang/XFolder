@@ -1,0 +1,467 @@
+.ResultSet {
+    clear: both;
+    margin-top: 0;
+    padding: 20px 0 0 20px;
+    position: relative;
+    width: 100%;
+}
+* html .ResultSet {
+    clear: none;
+}
+
+.ResultsLarge {
+    float: left;
+    margin-top: 20px;
+}
+.ResultsLarge div {
+    float: left;
+    height: 300px;
+    text-align: center;
+    width: 260px;
+}
+.ResultsLarge p {
+    font: 11px Arial,Helvetica,sans-serif;
+    margin-top: 5px;
+}
+.ResultsLargeAd {
+    float: left;
+    margin-top: 20px;
+    width: 530px;
+}
+.ResultsLargeAd div {
+    float: left;
+    height: 300px;
+    text-align: center;
+    width: 260px;
+}
+.ResultsLargeAd p {
+    font: 11px Arial,Helvetica,sans-serif;
+    margin-top: 5px;
+}
+.ResultsThumbs {
+    margin-top: 20px;
+    width: 100%;
+}
+.ResultsThumbs div.ResultsThumbsChild {
+    float: left;
+    height: 130px;
+    margin: 5px 5px 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    width: 116px;
+}
+.ResultsThumbs p.ResultsThumbsChild {
+    font: 11px Arial,Helvetica,sans-serif;
+    margin-top: 5px;
+}
+.ResultsThumbs p.isGetty {
+    margin-right: 11px;
+}
+.ResultsThumbs div.ResultsThumbsChildMedium {
+    float: left;
+    height: 286px;
+    margin: 5px 5px 0;
+    padding: 0;
+    text-align: center;
+    width: 256px;
+}
+.ResultsThumbs p.ResultsThumbsChildMedium {
+    font: 11px Arial,Helvetica,sans-serif;
+    margin-top: 5px;
+}
+.ResultsThumbs p.ResultsThumbsChildMediumTitle {
+    font: 11px Arial,Helvetica,sans-serif;
+    margin: 0 0 5px;
+    padding: 0;
+}
+.ResultsThumbs .gettyIcon {
+    position: absolute;
+    right: 8px;
+}
+.ResultsThumbsAd {
+    float: left;
+    margin-top: 20px;
+    width: 530px;
+}
+.ResultsThumbsAd div {
+    float: left;
+    height: 130px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    padding: 0;
+    text-align: center;
+    width: 120px;
+}
+.ResultsThumbsAd p {
+    font: 11px Arial,Helvetica,sans-serif;
+    margin-top: 5px;
+}
+.DetailResults {
+    margin-left: 40px;
+    margin-right: auto;
+    margin-top: 0;
+}
+.DetailResults td {
+    padding-bottom: 30px;
+    vertical-align: top;
+}
+.DetailResults .DetailPic {
+    text-align: left;
+    width: 240px;
+}
+.DetailResults .PicDesc {
+    padding-left: 20px;
+    text-align: left;
+    width: 100%;
+}
+.DetailResults .PicDesc h3 {
+    color: #333333;
+}
+.DetailResults .SeeMore {
+    font-size: 12px;
+    margin-top: 5px;
+}
+.DetailResults .PicFrom {
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.DetailResults .PicFrom img {
+    float: left;
+    margin-right: 5px;
+}
+.DetailResults p {
+    font-size: 14px;
+}
+.DetailResults .ListTags {
+    margin-top: 30px;
+}
+.ThumbResults {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 760px;
+}
+.ThumbResults td {
+    padding-left: 20px;
+    vertical-align: top;
+    width: 100%;
+}
+p.Thumby {
+    float: left;
+    font: 11px Arial,Helvetica,sans-serif;
+    height: 130px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-top: 0;
+    padding: 0;
+    text-align: center;
+    width: 110px;
+}
+.GroupsResults {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.GroupsResults td {
+    vertical-align: top;
+}
+.GroupIcon {
+    padding: 0 15px 0 0;
+    text-align: right;
+    width: 63px;
+}
+.GroupsResults .Meta {
+    padding-bottom: 70px;
+    padding-top: 0;
+    text-align: left;
+    width: 593px;
+}
+.GroupsResults h2 {
+    font-size: 20px;
+    margin: 0;
+}
+.GroupsResults .Stats {
+    color: #666666;
+    font-size: 11px;
+    margin-bottom: 0;
+    margin-top: 5px;
+    padding-left: 4px;
+}
+.Stat:link {
+    text-decoration: none;
+}
+.Stat:visited {
+    color: #0066CC;
+    text-decoration: none;
+}
+.Stat:hover {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #0063DC;
+    text-decoration: underline;
+}
+.Stat:active {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #FF0084;
+    text-decoration: underline;
+}
+.GroupsResults .About {
+    font-size: 12px;
+    margin-top: 10px;
+}
+.GroupsResults .Pool {
+    color: #777777;
+    font-size: 11px;
+    padding-bottom: 30px;
+    text-align: center;
+    vertical-align: middle;
+    width: 110px;
+}
+.DiscussionResults {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 640px;
+}
+.DiscussionResults td {
+    vertical-align: top;
+}
+.DiscussionResults .InWhich {
+    font-size: 11px;
+    margin-left: 10px;
+}
+.DiscussionResults h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.DiscussionResults p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.DiscussionResults .What {
+    margin-bottom: 20px;
+    width: 640px;
+}
+.DiscussionResults .Who {
+    padding-right: 15px;
+}
+.DiscussionResults .Topic {
+    color: #000000;
+    font-size: 12px;
+    width: 450px;
+}
+.DiscussionResults .Glance {
+    width: 180px;
+}
+.DiscussionResults ul {
+    margin: 0;
+}
+.DiscussionResults li {
+    color: #999999;
+}
+.PeopleResults {
+    margin: 20px auto;
+    width: 660px;
+}
+.PeopleResults td {
+    vertical-align: top;
+}
+.PeopleResults .Icon {
+    padding-right: 8px;
+    width: 58px;
+}
+.PeopleResults .Who {
+    padding-bottom: 25px;
+    padding-right: 30px;
+    width: 272px;
+}
+.PeopleResults h2 {
+    color: #000000;
+    font-weight: normal;
+    margin: 0;
+}
+.PeopleResults p {
+    color: #999999;
+    font-size: 11px;
+    margin-bottom: 0;
+    margin-top: 4px;
+}
+.PeopleResults b {
+    color: #333333;
+}
+#faqResults {
+    background: none repeat scroll 0 0 #F3F3F3;
+    border: 1px solid #EDEDED;
+    clear: left;
+    padding: 15px;
+}
+#faqResults h4 {
+    font-size: 14px;
+    margin: 0;
+}
+#faqResults ol {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+#faqResults li {
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+td.PicDesc a {
+    text-decoration: none;
+}
+.DetailResults .ListThings, .DetailResults .ListIconThings, .DetailResults .ListBuddyIconThings {
+    color: #666666;
+    margin: 0;
+}
+.DetailResults .ListThings {
+    font-size: 12px;
+}
+.DetailResults .ListIconThings {
+    font-size: 14px;
+    margin: 7px 0;
+}
+.DetailResults .ListBuddyIconThings {
+    font-size: 12px;
+    margin: 10px 0;
+}
+.DetailResults .ListIconThings img, .DetailResults .ListBuddyIconThings img {
+    vertical-align: middle;
+}
+.DetailResults .PicFrom {
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+h3.PicTitle {
+    font: bold 20px Arial,Helvetica,sans-serif;
+    margin: 0 0 5px;
+}
+h3.PicTitle small {
+    color: black;
+    font: 14px Arial,Helvetica,sans-serif;
+}
+.ListIconThings .link666:link {
+    color: #666666;
+    text-decoration: none;
+}
+.ListIconThings .link666:visited {
+    color: #666666;
+    text-decoration: none;
+}
+.ListIconThings .link666:hover {
+    background: none repeat scroll 0 center transparent;
+    color: #0063DC;
+    text-decoration: none;
+}
+.ListIconThings .link666:active {
+    background: none repeat scroll 0 center transparent;
+    color: #0063DC;
+    text-decoration: none;
+}
+.ListThings .Plain:link {
+    color: #0063DC;
+    text-decoration: none;
+}
+.ListThings .Plain:visited {
+    color: #1057AE;
+    text-decoration: none;
+}
+.ListThings .Plain:hover {
+    background: none repeat scroll 0 0 #0063DC;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.ListThings .Plain:active {
+    background: none repeat scroll 0 0 #0259C4;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#adv-search-selecta-container, #adv-search-selecta {
+    width: 300px;
+}
+#adv-search-selecta-container p.loading {
+    background: url("http://l.yimg.com/g/images/progress/balls-24x12-trans.gif") no-repeat scroll 2px 0 transparent;
+    border: 0 none;
+    height: 14px;
+    margin: 4px 0;
+    padding: 0;
+    width: 100%;
+}
+#search-people-list {
+    display: none;
+}
+.bo_selecta_selected_list {
+    list-style: none outside none;
+    margin: 0 0 12px;
+    padding: 0;
+}
+.bo_selecta_selected_list li {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #000000;
+    line-height: 13px;
+    margin-bottom: 1px;
+    overflow: hidden;
+    padding: 5px 5px 3px;
+}
+.bo_selecta_selected_list li p {
+    float: left;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.bo_selecta_selected_list li a {
+    text-decoration: none;
+}
+#adv-search-selecta-container .bo_selecta_selected_list li p span.name {
+    display: block;
+}
+.bo_selecta_selected_list li p span.name img.bs-email-icon {
+    margin-left: 4px;
+}
+.bo_selecta_selected_list li p span.name strong.username {
+    color: #000000;
+}
+.bo_selecta_selected_list li:hover p span.name strong.username a {
+    background: none repeat scroll 0 0 transparent;
+    color: #0063DC;
+}
+.bo_selecta_selected_list li p span.name span.realname {
+    margin-left: 0;
+    margin-top: 0;
+}
+.bo_selecta_selected_list li p span.controls {
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+.bo_selecta_selected_list li p span.controls a {
+    position: relative;
+}
+.bo_selecta_selected_list li p span.controls a span {
+    left: -999em;
+    position: absolute;
+}
+.bo_selecta_selected_list li p span.controls a.pt-add {
+    background: url("http://l.yimg.com/g/images/face_boundry_controls_sprite.gif") no-repeat scroll 2px 2px transparent;
+    float: left;
+    height: 15px;
+    margin-top: 0;
+    overflow: hidden;
+    width: 15px;
+}
+.bo_selecta_selected_list li p span.controls a.pt-add:hover {
+    background-position: 2px -80px;
+}
+.bo_selecta_selected_list li p span.controls a.pt-add-active {
+    background-position: 2px -39px;
+}
+.bo_selecta_selected_list li p span.controls a.pt-add-active:hover {
+    background-position: 2px -121px;
+}
+.bo_selecta_selected_list li p span.controls a.pt-remove {
+    float: right;
+    overflow: hidden;
+}
